@@ -46,12 +46,13 @@ img.tambor {
 
 span.rainbow {
     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 div.casque {
-    padding: 18 15 15 15px;
+    padding: 18px 15px 15px;
     width: 100%;
     height: auto;
     background: #1f1f1f;

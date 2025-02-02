@@ -1,40 +1,40 @@
-@media (min-width:500px) {
-    img.tambor{
-        width: 100%; /* Set a smaller width for larger screens */
-        margin: 0 auto; /* Center the image */
+@media (min-width: 500px) {
+    img.tambor {
+        width: 100%;
+        margin: 0 auto;
         display: block;
     }
-    div.container{
+    div.container {
         margin: 15%;
         margin-top: 40px;
-        padding: 2s0px; 
+        padding: 20px;
     }
 }
 
 @media (min-width: 600px) {
     img.tambor {
-        width: 80%; /* Set a smaller width for larger screens */
-        max-width: 800px; /* Optional: limit max width */
-        margin: 0 auto; /* Center the image */
+        width: 80%;
+        max-width: 800px;
+        margin: 0 auto;
         display: block;
     }
-    div.container{
-        margin: 20%; 
+    div.container {
+        margin: 20%;
         margin-top: 50px;
-
+        padding: 20px;
     }
-
 }
 
 @media (min-width: 1000px) {
     img.tambor {
-        width: 80%; /* Set a smaller width for larger screens */
-        max-width: 800px; /* Optional: limit max width */
-        margin: 0 auto; /* Center the image */
+        width: 80%;
+        max-width: 800px;
+        margin: 0 auto;
         display: block;
     }
-    div.container{
+    div.container {
         margin: 30%;
-        margin-top:40px; 
+        margin-top: 40px;
+        padding: 20px;
     }
 }
