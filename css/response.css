@@ -1,40 +1,69 @@
-@media (min-width: 500px) {
-    img.tambor {
-        width: 100%;
-        margin: 0 auto;
-        display: block;
+@media (max-width:450px){
+    div.container {
+    max-width: 1200px;
+    margin: 10%;
+    margin-top: 20px;
+    padding: 0px;
+    }
+}
+@media (min-width:450px) {
+    img.tambor{
+    width: 100%;
+    display: block;
+    margin: 30px auto;
     }
     div.container {
-        margin: 15%;
-        margin-top: 40px;
-        padding: 20px;
+    max-width: 1200px;
+    margin: 10%;
+    margin-top: 20px;
+    padding: 15px;
     }
+    h1.ratcore{
+    font-size: 60px;
+    }
+    img{
+    height: 35%;
+    width: auto;
+    display: block;
+    border-radius: 10px;
+}
 }
 
 @media (min-width: 600px) {
     img.tambor {
-        width: 80%;
-        max-width: 800px;
-        margin: 0 auto;
-        display: block;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        border-radius: 20px;
     }
-    div.container {
-        margin: 20%;
+    div.container{
+        margin: 20%; 
         margin-top: 50px;
         padding: 20px;
     }
+    h1.ratcore{
+    font-size: 80px;
+    }
+    img{
+    height: 40%;
+    width: auto;
+    display: block;
+    border-radius: 10px;
 }
 
 @media (min-width: 1000px) {
     img.tambor {
-        width: 80%;
-        max-width: 800px;
-        margin: 0 auto;
+        width: 80%; /* Set a smaller width for larger screens */
+        max-width: 800px; /* Optional: limit max width */
+        margin: 0 auto; /* Center the image */
         display: block;
+        border-radius: 40px;
+
     }
     div.container {
-        margin: 30%;
-        margin-top: 40px;
-        padding: 20px;
+    max-width: 1200px;
+    margin: 25%;
+    margin-top: 30px;
+    padding: 50px;
     }
-}
+}}

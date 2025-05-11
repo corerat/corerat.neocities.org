@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corerat</title>
-    <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="css/response.css"/>
-    <link rel="stylesheet" type="text/css" href="css/header.module.css"/>
-</head>
-<body>
-     <header>
+<html>
+    <head>
+        <title>CORE.RAT</title>
+        <meta charset="UTF-8"/>
+        <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="css/response.css"/>
+        <link rel="stylesheet" type="text/css" href="css/header.module.css"/>
+        
+    </head>
+    <body>
+        <header>
         <div class="mastodon">
         <a rel="me" href="https://indiepocalypse.social/@corerat">Mastodon</a>
         </div>
@@ -20,11 +20,11 @@
                 <p><a href="blog/index.html" class="blogton">blog/</a></p><br>
                 <h1 class="ratcore">𝕮𝖔𝖗𝖊𝖗𝖆𝖙</h1>
                 <p>
-                    hello this is corerat. aka <a href="https://lysper.neocities.org">[̲̅l][̲̅y][̲̅s][̲̅p][̲̅e][̲̅r]</a>.<br>feel free to communicate with me if you need something
-                </p>
+                    This is my webpage, name's corerat =. I tend to create things for no specific reason. I used to be <a href="https://lysper.neocities.org">[̲̅l][̲̅y][̲̅s][̲̅p][̲̅e][̲̅r]</a>.<br>i am c2 in spanish and english, feel free to communicate with me if you need something
+                </p><br> 
                 <div class="casque">
                     <div class="casquehead">
-                        <h2>♥ Links ♥</h2>
+                        <h2>(っ◔◡◔)っ ♥ Links ♥</h2>
                     </div>
                     <div class="casquecont">
                         <li><a href="https://corerat.bandcamp.com" target="_blank">bandcamp <b>(new uploads 2025)</b></a></li>
@@ -40,12 +40,12 @@
                         </div><br>
                         <div class="casquehead">
                         <!-- <h2><a href="blog/artgal/index.html">(っ◔◡◔)っ ♥ art gallery ♥</a></h2> -->
-                        </div>
+                        </div><br>
                         <img src="media/photo_2025-04-24_16-35-05.jpg" alt="" class="tambor">
                     </div>
                 </div>
                 
             </div>
         </main>
-</body>
+    </body>
 </html>
