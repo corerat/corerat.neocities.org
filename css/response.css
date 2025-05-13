@@ -1,32 +1,33 @@
-@media (max-width:450px){
+@media (max-width: 450px) {
     div.container {
-    max-width: 1200px;
-    margin: 10%;
-    margin-top: 20px;
-    padding: 0px;
+        max-width: 1200px;
+        margin: 10%;
+        margin-top: 20px;
+        padding: 0px;
     }
 }
-@media (min-width:450px) {
-    img.tambor{
-    width: 100%;
-    display: block;
-    margin: 30px auto;
+
+@media (min-width: 450px) {
+    img.tambor {
+        width: 100%;
+        display: block;
+        margin: 30px auto;
     }
     div.container {
-    max-width: 1200px;
-    margin: 10%;
-    margin-top: 20px;
-    padding: 15px;
+        max-width: 1200px;
+        margin: 10%;
+        margin-top: 20px;
+        padding: 15px;
     }
-    h1.ratcore{
-    font-size: 60px;
+    h1.ratcore {
+        font-size: 60px;
     }
-    img{
-    height: 35%;
-    width: auto;
-    display: block;
-    border-radius: 10px;
-}
+    img {
+        height: 35%;
+        width: auto;
+        display: block;
+        border-radius: 10px;
+    }
 }
 
 @media (min-width: 600px) {
@@ -36,19 +37,20 @@
         margin: auto;
         border-radius: 20px;
     }
-    div.container{
-        margin: 20%; 
+    div.container {
+        margin: 20%;
         margin-top: 50px;
         padding: 20px;
     }
-    h1.ratcore{
-    font-size: 80px;
+    h1.ratcore {
+        font-size: 80px;
     }
-    img{
-    height: 40%;
-    width: auto;
-    display: block;
-    border-radius: 10px;
+    img {
+        height: 40%;
+        width: auto;
+        display: block;
+        border-radius: 10px;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -58,12 +60,11 @@
         margin: 0 auto; /* Center the image */
         display: block;
         border-radius: 40px;
-
     }
     div.container {
-    max-width: 1200px;
-    margin: 25%;
-    margin-top: 30px;
-    padding: 50px;
+        max-width: 1200px;
+        margin: 25%;
+        margin-top: 30px;
+        padding: 50px;
     }
-}}
+}

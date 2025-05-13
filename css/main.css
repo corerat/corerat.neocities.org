@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&family=Sono:wght@200..800&display=swap');
 
 @media (prefers-color-scheme: dark) {
-    body,a{
-    background: #272727;
-    color: whitesmoke;
+    body, a {
+        background: #272727;
+        color: whitesmoke;
     }
 }
+
 @media (prefers-color-scheme: light) {
-    body,a{
-    background: whitesmoke;
-    color: #272727;
+    body, a {
+        background: whitesmoke;
+        color: #272727;
     }
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -24,24 +26,22 @@ body {
     user-select: none;
 }
 
-body p{
+body p {
     text-align: justify;
 }
-
-
 
 h1, h2, p, ul {
     text-align: left;
 }
 
-img{
+img {
     height: 25%;
     width: auto;
     display: block;
     border-radius: 10px;
 }
 
-h1.ratcore{
+h1.ratcore {
     font-size: 45px;
 }
 
@@ -69,7 +69,11 @@ div.casque {
     border-radius: 15px;
 }
 
-div.casque p,h1,h2,a,li{
+div.casque p,
+div.casque h1,
+div.casque h2,
+div.casque a,
+div.casque li {
     color: b;
 }
 
@@ -88,16 +92,19 @@ div.casquecont {
     height: auto;
     margin-top: 10px;
 }
-.opensexternally{
+
+.opensexternally {
     font-size: 13px;
     opacity: 0.4;
     letter-spacing: -1px;
     text-decoration: none;
 }
-div.mastodon{
-  width: 0;
-  height: 0;
-  }
-div.mastodon a{
-  visibility: hidden;
+
+div.mastodon {
+    width: 0;
+    height: 0;
+}
+
+div.mastodon a {
+    visibility: hidden;
 }
