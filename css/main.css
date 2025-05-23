@@ -108,3 +108,9 @@ div.mastodon {
 div.mastodon a {
     visibility: hidden;
 }
+
+span.monero img {
+    display: inline-block;
+    width: 12px;
+    height: auto;
+}
