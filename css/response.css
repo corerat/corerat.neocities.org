@@ -59,7 +59,7 @@
         max-width: 800px; /* Optional: limit max width */
         margin: 0 auto; /* Center the image */
         display: block;
-        border-radius: 40px;
+        border-radius: 5px;
     }
     div.container {
         max-width: 1200px;
