@@ -1,10 +1,9 @@
 # corerat.neocities.org
-This is the source of [my personal blog](https://corerat.neocities.org/). It will **never** have JavaScript. It's responsive. It has automatic dark mode. It's made manually.
+This is the source of [my personal blog](https://corerat.neocities.org/). It's responsive. It has automatic dark mode. It's made manually.
 
 It is important to mention that this is the streamline source (1:1) of my site.
 
 ## Remarkable features
- - Will never have JS.
  - Made to be visually minimalistic.
  - Made to be responsive for a wide variety of screens.
  -  Visually appealing yet non overstimulant.

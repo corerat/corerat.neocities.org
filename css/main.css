@@ -26,6 +26,17 @@ body {
     user-select: none;
 }
 
+/* Enable text selection for code blocks */
+.code-content {
+    user-select: text;
+}
+
+/* Style for selected text in code blocks */
+.code-content::selection {
+    background: rgba(255, 255, 255, 0.2);
+    color: inherit;
+}
+
 body p {
     text-align: justify;
 }
@@ -113,4 +124,59 @@ span.monero img {
     display: inline-block;
     width: 12px;
     height: auto;
+}
+
+.code-block {
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #444;
+}
+
+.code-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 8px;
+    background-color: #333;
+}
+
+@media (prefers-color-scheme: light) {
+    .code-header {
+        background-color: #e0e0e0;
+    }
+    .code-content {
+        background-color: #f5f5f5;
+    }
+}
+
+.code-header span {
+    font-size: 0.8em;
+    opacity: 0.8;
+}
+
+.copy-button {
+    background: transparent;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 0.8em;
+    cursor: pointer;
+    color: inherit;
+    transition: all 0.2s ease;
+}
+
+.copy-button:hover {
+    opacity: 0.8;
+    transform: translateY(-1px);
+}
+
+.code-content {
+    padding: 12px;
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #1e1e1e;
+    font-size: 0.6em;
+    line-height: 1.4;
 }
