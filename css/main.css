@@ -26,12 +26,10 @@ body {
     user-select: none;
 }
 
-/* Enable text selection for code blocks */
 .code-content {
     user-select: text;
 }
 
-/* Style for selected text in code blocks */
 .code-content::selection {
     background: rgba(255, 255, 255, 0.2);
     color: inherit;
@@ -177,6 +175,7 @@ span.monero img {
     white-space: pre-wrap;
     word-wrap: break-word;
     background-color: #1e1e1e;
+    color: whitesmoke;  /* Always white text since background is always dark */
     font-size: 0.6em;
     line-height: 1.4;
 }

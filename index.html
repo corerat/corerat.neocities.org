@@ -29,8 +29,7 @@
                 <b>what is this site:</b> personal blog of a weirdo from the internet. if you don't enjoy lurking, it's your moment to leave
                 <br>
                 <b>whoami</b>: a chronic online individual who sometimes creates music, art and other various things. I will be posting my most weird and detailed thoughts in the <b>🐭/blog/</b> section up below 𝕮𝖔𝖗𝖊𝖗𝖆𝖙. To see more <span class="rainbow"><b>about me</b></span>, go to the 🐭<a href="blog/index.html">/blog/</a> section.
-            </p>
-            <div class="code-block">                <div class="code-header">
+            </p>            <div class="code-block">                <div class="code-header">
                     <span>monero</span>
                     <button class="copy-button" onclick="copyCode(event)">copy</button>
                 </div>
@@ -100,20 +99,7 @@
             </div>
         </div>
     </main>    <script>
-        function copyCode(event) {
-            const button = event.target;
-            const codeBlock = button.closest('.code-block');
-            const codeContent = codeBlock.querySelector('.code-content');
-            const text = codeContent.textContent;
-            
-            navigator.clipboard.writeText(text).then(() => {
-                const originalText = button.textContent;
-                button.textContent = 'copied!';
-                setTimeout(() => {
-                    button.textContent = originalText;
-                }, 1500);
-            });
-        }
+        const copyCode=e=>{let b=e.target,t=b.textContent;navigator.clipboard.writeText(b.closest('.code-block').querySelector('.code-content').textContent).then(_=>{b.textContent='copied!';setTimeout(_=>b.textContent=t,1500)})}
     </script>
 </body>
 </html>
