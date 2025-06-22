@@ -175,7 +175,7 @@ span.monero img {
     white-space: pre-wrap;
     word-wrap: break-word;
     background-color: #1e1e1e;
-    color: whitesmoke;  /* Always white text since background is always dark */
+    color: whitesmoke;
     font-size: 0.6em;
     line-height: 1.4;
 }
